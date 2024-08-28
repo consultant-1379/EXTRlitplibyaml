@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ericsson.litp</groupId>
+        <artifactId>integration</artifactId>
+        <version>2.47.1</version>
+    </parent>
+    <groupId>com.ericsson.nms.litp.3pps</groupId>
+    <artifactId>EXTRlitplibyaml</artifactId>
+    <version>1.2.5-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <libyaml.version>0.1.3</libyaml.version>
+    </properties>
+    <modules>
+        <module>EXTRlitplibyaml_CXP9030603</module>
+    </modules>
+    <scm>
+        <developerConnection>scm:git:ssh://gerrit.ericsson.se:29418/LITP/EXTRlitplibyaml</developerConnection>
+      <tag>HEAD</tag>
+  </scm>
+</project>
